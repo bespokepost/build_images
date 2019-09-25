@@ -1,4 +1,4 @@
-FROM circleci/ruby:2.2.10-node AS ruby
+FROM circleci/ruby:2.3.8-node AS ruby
 
 ENV WORKDIR /home/circleci
 WORKDIR $WORKDIR
